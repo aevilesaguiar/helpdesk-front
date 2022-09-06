@@ -63,6 +63,8 @@ const routes: Routes = [
 ];
 
 
+## Para adicionar a alteração no github no mesmo commit(commit anterior)
+
 ## Gerar Gradiente
 
 - https://cssgradient.io/

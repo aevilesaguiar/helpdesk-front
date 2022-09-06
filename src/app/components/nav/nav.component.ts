@@ -13,7 +13,7 @@ export class NavComponent implements OnInit {
 
   /* ngOnit ele renderiza um trecho de código quando o componente é iniciado*/
   ngOnInit(): void {
-    this.router.navigate(['home'])/*ele vai navegar para a rora /home */
+    this.router.navigate(['tecnico'])/*ele vai navegar para a rora /home */
   }
 
 }
