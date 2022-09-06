@@ -70,3 +70,9 @@ const routes: Routes = [
 - https://cssgradient.io/
 
 
+## FormControl
+
+
+Rastreia o valor e o status de validação de um controle de formulário individual.
+
+Ex:  email=new FormControl(null, Validators.email); ele valida se o valor digitado é um formato email
