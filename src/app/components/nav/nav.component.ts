@@ -8,10 +8,12 @@ import { Router } from '@angular/router';
 })
 export class NavComponent implements OnInit {
 
+  /* criar uma variavel, quando o nosso componente for contruido, o router permite que naveguemos entre os componentes */
   constructor(private router: Router) { }
 
+  /* ngOnit ele renderiza um trecho de código quando o componente é iniciado*/
   ngOnInit(): void {
-    this.router.navigate(['home'])
+    this.router.navigate(['home'])/*ele vai navegar para a rora /home */
   }
 
 }
