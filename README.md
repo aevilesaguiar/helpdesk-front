@@ -29,5 +29,38 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Iniciando um projeto em Angular
 https://material.angular.io/guide/getting-started
 
+ng n helpdesk
+
 ## Components Angular
 https://material.angular.io/components/categories
+
+ng add @angular/material
+
+## Comunicação com serviços de back-end usando HTTP
+
+Inserir no module.ts
+
+import { HttpClientModule } from '@angular/common/http';
+
+
+## imports component Angular Material
+https://material.angular.io/components/categories
+
+
+## Rotas
+Quando eu quero mostrar apenas um componente.
+
+<router-outlet></router-outlet>
+
+Essa tag renderiza o component que você implentar nas suas rotas.
+
+Ex: 
+const routes: Routes = [
+
+/quando o meu path for vazio eu renderizo com NavComponent
+  {path:'',component:NavComponent
+}
+];
+
+
+
