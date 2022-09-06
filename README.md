@@ -76,3 +76,11 @@ const routes: Routes = [
 Rastreia o valor e o status de validação de um controle de formulário individual.
 
 Ex:  email=new FormControl(null, Validators.email); ele valida se o valor digitado é um formato email
+
+## ngx toastr
+
+https://www.npmjs.com/package/ngx-toastr
+
+instalar cli: npm i ngx-toastr
+
+ngx-toastr é uma biblioteca com componente de notificação com muitas opções de configuração.
