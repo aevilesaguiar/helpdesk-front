@@ -3,13 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
+import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
 
+//criando a rota
 const routes: Routes = [
 
   //quando o meu path for vazio eu renderizo com NavComponent
   {
     path:'', component:NavComponent, children:[
-      {path: 'home', component: HomeComponent} //children significa filha , rota filha do componente nav
+      {path: 'home', component: HomeComponent}, //children significa filha , rota filha do componente nav
+      { path: 'tecnicos', component:TecnicoListComponent}
     ]
 }
 ];
