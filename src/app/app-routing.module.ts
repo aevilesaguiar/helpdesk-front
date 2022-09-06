@@ -5,7 +5,8 @@ import { NavComponent } from './components/nav/nav.component';
 const routes: Routes = [
 
   //quando o meu path for vazio eu renderizo com NavComponent
-  {path:'',component:NavComponent
+  {
+    path:'', component:NavComponent
 }
 ];
 
