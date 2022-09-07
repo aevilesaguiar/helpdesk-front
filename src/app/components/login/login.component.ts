@@ -32,11 +32,14 @@ export class LoginComponent implements OnInit {
 
 
   validaCampos(): boolean{
+
+    return this.email.valid && this.senha.valid;
+    /*
     if(this.email.valid && this.senha.valid){
       return true;
     }else{
       return false;
-    }
+    }*/
   }
 
 }
